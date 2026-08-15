@@ -9,63 +9,63 @@ const Services = () => {
   const services = [
     {
       icon: Lightbulb,
-      title: "Instructional Design",
-      description: "Creating structured learning experiences that engage learners and achieve educational objectives through evidence-based design principles.",
+      title: "Instructional Design Consulting",
+      description: "ADDIE & SAM model implementation, learning needs analysis, training gap assessment, and strategic curriculum design aligned with business objectives.",
       color: "text-[#ff6b35]",
       bgColor: "bg-[#ff6b35]",
       hoverClass: "hover:primary-glow",
       link: "#contact",
-      details: "Learn how I can design your next learning experience"
+      details: "Transform your learning strategy"
     },
     {
       icon: Laptop,
-      title: "eLearning Development",
-      description: "Building interactive eLearning modules using cutting-edge tools and technologies to deliver engaging digital learning experiences.",
+      title: "E-Learning Development",
+      description: "Interactive course development using Articulate Storyline, Articulate Rise, and Adobe Captivate. Engaging modules with assessments and gamification designed to maximize learner engagement.",
       color: "text-[#ff8f50]",
       bgColor: "bg-[#ff8f50]",
       hoverClass: "hover:secondary-glow",
       link: "#contact",
-      details: "Discover my eLearning development expertise"
+      details: "Build engaging digital learning"
     },
     {
       icon: FileText,
-      title: "Storyboarding",
-      description: "Visual planning and narrative development for eLearning content, ensuring clear learning pathways and effective content flow.",
+      title: "Training Solutions Design",
+      description: "Comprehensive instructor-led training (ILT), virtual instructor-led training (vILT), blended learning programs, and quick reference cards designed for maximum learner performance.",
       color: "text-[#ff6b35]",
       bgColor: "bg-[#ff6b35]",
       hoverClass: "hover:primary-glow",
       link: "#contact",
-      details: "See my storyboarding process in action"
+      details: "Multi-modal training excellence"
     },
     {
       icon: Smartphone,
-      title: "UI/UX Design",
-      description: "Designing intuitive and user-friendly interfaces that enhance learner experience and improve knowledge retention.",
+      title: "Multimedia Content Creation",
+      description: "Professional video creation with Camtasia and Synthesia, interactive storyboarding, visual asset design, and multimedia content production for enhanced learning experiences.",
       color: "text-[#ff8f50]",
       bgColor: "bg-[#ff8f50]",
       hoverClass: "hover:secondary-glow",
       link: "#contact",
-      details: "Explore my UI/UX design portfolio"
+      details: "Create compelling visual content"
     },
     {
       icon: Video,
-      title: "Video Editing",
-      description: "Professional video production and editing for educational content, creating compelling visual narratives that support learning objectives.",
+      title: "LMS Implementation & Management",
+      description: "Strategic LMS deployment, platform management (Moodle, Open edX, SuccessFactors), course structure setup, and learner experience optimization.",
       color: "text-[#ff6b35]",
       bgColor: "bg-[#ff6b35]",
       hoverClass: "hover:primary-glow",
       link: "#contact",
-      details: "View my video editing capabilities"
+      details: "Optimize your learning platform"
     },
     {
       icon: Brush,
-      title: "Graphic Design",
-      description: "Creating visually appealing graphics, illustrations, and visual elements that enhance learning content and brand identity.",
+      title: "L&D Strategy & Assessment",
+      description: "Training effectiveness evaluation, learner feedback analysis, continuous improvement strategies, and data-driven learning optimization for enterprise organizations.",
       color: "text-[#ff8f50]",
       bgColor: "bg-[#ff8f50]",
       hoverClass: "hover:secondary-glow",
       link: "#contact",
-      details: "Check out my graphic design work"
+      details: "Drive measurable learning outcomes"
     }
   ];
 
@@ -80,7 +80,7 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gradient mb-4">My Services</h2>
-          <p className="text-xl text-gray-400">Comprehensive eLearning and design solutions</p>
+          <p className="text-xl text-gray-400">Comprehensive instructional design and learning solutions</p>
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

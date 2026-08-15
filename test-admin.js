@@ -2,8 +2,8 @@
 
 // Simple test script to verify admin credentials
 const adminCredentials = {
-  username: 'bharathb451@gmail.com',
-  password: '7760344951@Grb'
+  username: 'Prashika',
+  password: 'Prashika@2025'
 };
 
 console.log('Testing admin credentials:');
@@ -12,8 +12,8 @@ console.log('Password length:', adminCredentials.password.length);
 console.log('Password starts with:', adminCredentials.password.substring(0, 3) + '...');
 
 // Test comparison
-const testUsername = 'bharathb451@gmail.com';
-const testPassword = '7760344951@Grb';
+const testUsername = 'Prashika';
+const testPassword = 'Prashika@2025';
 
 console.log('\nTesting comparison:');
 console.log('Username match:', testUsername === adminCredentials.username);

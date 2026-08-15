@@ -11,8 +11,8 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <p className="text-gray-400">© 2025 Bharath Shetty. All rights reserved.</p>
-          <p className="text-gray-500 mt-2">Senior Instructional Designer & eLearning Developer</p>
+          <p className="text-gray-400">© 2026 Prashika Lalwani. All rights reserved.</p>
+          <p className="text-gray-500 mt-2">Instructional Designer Consultant | L&D Specialist | Learning Experience Designer</p>
         </motion.div>
       </div>
     </footer>

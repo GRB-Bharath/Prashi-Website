@@ -4,45 +4,88 @@ import { ArticulateStorylineIcon } from "./ui/tool-icons";
 const Experience = () => {
   const experiences = [
     {
-      period: "Dec 2024 - Present",
+      period: "Nov 2024 - Present",
       title: "Senior Technical Instructional Designer II",
       company: "NIIT",
-      location: "Bengaluru, Karnataka, India • Remote",
+      location: "Gurgaon • Remote",
       type: "Full-time",
-      skills: ["Synthesia, Camtasia", "ADDIE", "Microsoft 365 Tools", "+4 skills"],
+      skills: ["ADDIE Model", "Camtasia", "Articulate", "AI Tools", "+5 skills"],
       achievements: [
-        "Leading advanced eLearning module development using cutting-edge instructional design methodologies",
-        "Implementing ADDIE framework for comprehensive curriculum development",
-        "Specializing in Adobe Captivate and Synthesia for interactive learning experiences",
-        "Managing cross-functional teams for educational content delivery"
+        "Managed multiple concurrent digital learning projects for enterprise stakeholders",
+        "Conducted training needs analysis and collaborated with business stakeholders",
+        "Developed multimedia learning assets and interactive training content",
+        "Leveraged AI-enabled learning tools to enhance learner engagement",
+        "Facilitated stakeholder review cycles and implemented continuous improvements"
       ]
     },
     {
-      period: "Mar 2024 - Dec 2024",
+      period: "Aug 2023 - Mar 2024",
       title: "Instructional Designer",
-      company: "NetCom Learning",
-      location: "United States • Remote",
+      company: "PeopleStrong Pvt. Ltd.",
+      location: "Gurgaon • Remote",
       type: "Full-time",
-      skills: ["Artificial Intelligence (AI)", "Blockchain", "Articulate Storyline", "+5 skills"],
+      skills: ["ADDIE", "Storyboarding", "Articulate Rise", "LMS", "Adult Learning"],
       achievements: [
-        "Specialized in AI and Blockchain training content development",
-        "Created managed learning services for enterprise clients",
-        "Developed cutting-edge curriculum for emerging technologies",
-        "Collaborated with international teams on innovative learning solutions"
+        "Designed and developed scalable e-learning solutions aligned with enterprise objectives",
+        "Created instructional storyboards, assessments, and learning assets",
+        "Strengthened learning resources through feedback-driven enhancements",
+        "Leveraged AI-enabled tools and multimedia technologies for content development"
       ]
     },
     {
-      period: "Apr 2023 - Apr 2024",
+      period: "Feb 2023 - Jul 2023",
       title: "Instructional Designer",
-      company: "Simplilearn",
-      location: "Bengaluru, Karnataka, India • On-site",
+      company: "Prospecta Software",
+      location: "Noida • Remote",
       type: "Full-time",
-      skills: ["Java", "AWS", "Google Cloud", "Microsoft Azure", "Content Management", "+7 skills"],
+      skills: ["SAM Model", "Storyboarding", "Design Documents", "ILT", "Assessments"],
       achievements: [
-        "Designed comprehensive Java programming curriculum",
-        "Managed content development lifecycle for technical training programs",
-        "Created interactive learning modules for software development courses",
-        "Implemented quality assurance processes for educational content"
+        "Partnered with stakeholders to conduct learning needs analyses",
+        "Designed 50+ custom storyboards and assessments for business process learning",
+        "Created 100+ design documents and learning aids for software users",
+        "Improved learner self-sufficiency across user groups"
+      ]
+    },
+    {
+      period: "Mar 2022 - Jul 2022",
+      title: "Sr. Instructional Designer",
+      company: "Asian Academy of Film & Television",
+      location: "Noida • Remote",
+      type: "Full-time",
+      skills: ["ADDIE", "Bloom's Taxonomy", "Team Leadership", "LMS Platforms"],
+      achievements: [
+        "Applied ADDIE methodology to lead multiple instructional design projects",
+        "Coordinated with SMEs to validate content accuracy and alignment",
+        "Authored 40+ design documents, storyboards, and assessments",
+        "Led and mentored a team of instructional designers overseeing quality assurance"
+      ]
+    },
+    {
+      period: "Jan 2020 - Mar 2020",
+      title: "Sr. Instructional Designer/Curriculum Designer",
+      company: "LIDO Learning",
+      location: "Mumbai • Remote",
+      type: "Full-time",
+      skills: ["Curriculum Design", "ILT", "VILT", "LMS Management", "Content Governance"],
+      achievements: [
+        "Designed and implemented learner-centric ILT and digital learning programs",
+        "Created interactive activities, storyboards, and assessments",
+        "Led and mentored a team of instructional designers",
+        "Managed project planning, content governance, and quality assurance"
+      ]
+    },
+    {
+      period: "Jul 2019 - Nov 2019",
+      title: "Content Developer",
+      company: "Doubtnut",
+      location: "Gurgaon • Remote",
+      type: "Full-time",
+      skills: ["Content Development", "Quality Assurance", "Higher Learning", "Digital Assets"],
+      achievements: [
+        "Developed and reviewed 150+ digital learning assets",
+        "Ensured content accuracy, instructional clarity, and quality standards",
+        "Supported higher-learning audiences with comprehensive content",
+        "Maintained rigorous quality control throughout content development lifecycle"
       ]
     }
   ];
@@ -104,31 +147,20 @@ const Experience = () => {
                   viewport={{ once: true }}
                   className={`flex-1 ${index % 2 === 0 ? 'lg:pl-8' : 'lg:pr-8'} relative z-30`}
                 >
-                  {index === 0 ? (
-                    <div className="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto lg:mx-0 p-2 shadow-lg">
-                      <img 
-                        src="/images/NIIT.png" 
-                        alt="NIIT Logo" 
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
-                  ) : index === 1 ? (
-                    <div className="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto lg:ml-auto lg:mr-8 p-2 shadow-lg">
-                      <img 
-                        src="/images/Netcom.png" 
-                        alt="NetCom Learning Logo" 
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
-                  ) : (
-                    <div className="w-48 h-48 flex items-center justify-center mx-auto lg:mx-0">
-                      <img 
-                        src="/images/simpliearn.png" 
-                        alt="Simplilearn Logo" 
-                        className="w-full h-full object-contain rounded-lg"
-                      />
-                    </div>
-                  )}
+                  <div className="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto p-3 shadow-lg">
+                    <img 
+                      src={
+                        index === 0 ? "/images/NIIT.png" :
+                        index === 1 ? "/images/peoplestrong.jpg" :
+                        index === 2 ? "/images/prospecta_software_logo.jpg" :
+                        index === 3 ? "/images/Asian Academy of Film & Television.jpg" :
+                        index === 4 ? "/images/LIDO Learning.png" :
+                        "/images/Doubtnut.jpg"
+                      }
+                      alt={`${exp.company} Logo`}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                 </motion.div>
               </div>
             ))}

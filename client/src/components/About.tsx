@@ -6,7 +6,9 @@ import {
   AdobeCaptivateIcon,
   ArticulateStorylineIcon, 
   CanvaIcon,
-  FigmaIcon
+  Microsoft365Icon,
+  VyondIcon,
+  PowerPointIcon
 } from "@/components/ui/tool-icons";
 import {
   HTMLIcon,
@@ -36,17 +38,21 @@ const About = () => {
     { icon: SynthesiaIcon, name: "Synthesia", color: "text-[#ffb84d]" },
     { icon: AdobeCaptivateIcon, name: "Adobe Captivate", color: "text-[#ff6b35]" },
     { icon: ArticulateStorylineIcon, name: "Articulate Storyline", color: "text-[#ffb84d]" },
-    { icon: CanvaIcon, name: "Canva", color: "text-[#ff6b35]" },
-    { icon: FigmaIcon, name: "Figma", color: "text-[#ffb84d]" },
+    { icon: ArticulateStorylineIcon, name: "Articulate Rise", color: "text-[#ff6b35]" },
+    { icon: CanvaIcon, name: "Canva", color: "text-[#ffb84d]" },
+    { icon: Microsoft365Icon, name: "Microsoft 365", color: "text-[#ffb84d]" },
+    { icon: VyondIcon, name: "Vyond", color: "text-[#ff6b35]" },
+    { icon: PowerPointIcon, name: "PowerPoint", color: "text-[#ffb84d]" },
+    { icon: CanvaIcon, name: "Generative AI", color: "text-[#ff6b35]" },
   ];
 
   const technologies = [
-    { icon: HTMLIcon, name: "HTML", color: "text-[#ff6b35]" },
+    { icon: HTMLIcon, name: "HTML 5", color: "text-[#ff6b35]" },
     { icon: CSSIcon, name: "CSS", color: "text-[#ffb84d]" },
     { icon: JavaScriptIcon, name: "JavaScript", color: "text-[#ff6b35]" },
-    { icon: PythonIcon, name: "Python", color: "text-[#ffb84d]" },
-    { icon: SQLIcon, name: "SQL", color: "text-[#ff6b35]" },
-    { icon: AWSIcon, name: "AWS", color: "text-[#ffb84d]" },
+    { icon: SQLIcon, name: "SQL", color: "text-[#ffb84d]" },
+    { icon: AWSIcon, name: "AWS", color: "text-[#ff6b35]" },
+    { icon: PythonIcon, name: "ADDIE Model", color: "text-[#ffb84d]" },
   ];
 
   const aiTools = [
@@ -86,8 +92,8 @@ const About = () => {
             className="lg:sticky lg:top-24"
           >
             <img
-              src="/images/about me image.png"
-              alt="Bharath Shetty - About Me"
+              src="/images/about%20me%20image.png"
+              alt="Prashika Lalwani - Instructional Designer Consultant"
               className="rounded-2xl shadow-2xl w-full object-cover lg:min-h-[500px]"
               loading="eager"
               decoding="async"
@@ -102,11 +108,11 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300 leading-relaxed">
-              Results-driven <b>Technical Instructional Designer</b> with over 3+ years of experience crafting high-impact eLearning solutions. I leverage industry-leading tools like <b>Articulate Storyline, Adobe Captivate, Camtasia, Synthesia, Canva,</b> and <b>Microsoft 365</b> alongside cutting - edge <b>AI and agentic tools</b> to build learning experiences that truly engage and deliver measurable outcomes.
+              Results-driven <b>Instructional Designer Consultant</b> with 6+ years of experience designing engaging learning solutions for technical and corporate audiences. I leverage industry-leading tools like <b>Articulate Storyline 360, Adobe Captivate, Camtasia, Synthesia,</b> and <b>Canva</b> alongside <b>Generative AI tools</b> to build interactive learning experiences that transform complex concepts and deliver measurable outcomes.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              From <b>instructional design</b> and <b>storyboarding</b> to <b>UI/UX design</b> and <b>multimedia content creation</b>, I bring a unique blend of creativity and technical depth to every project. I'm passionate about harnessing technology - including AI - powered workflows-to make learning more accessible, interactive, and effective for diverse audiences.
+              From <b>instructional design</b> and <b>storyboarding</b> to <b>curriculum development</b> and <b>LMS implementation</b>, I bring expertise in <b>ADDIE methodology</b> and adult learning principles to every project. Passionate about harnessing AI and innovative technologies to make learning more accessible, engaging, and effective for diverse audiences globally.
             </p>
             
             <div className="mt-8">

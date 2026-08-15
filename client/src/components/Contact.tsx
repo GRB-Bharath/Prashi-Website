@@ -48,28 +48,26 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "bharathb451@gmail.com",
+      value: "prashikalalalwani@gmail.com",
       bgColor: "bg-[#ff6b35]"
     },
-    // {
-    //   icon: Phone,
-    //   title: "Phone",
-    //   value: "+91 7760....51",
-    //   bgColor: "bg-[#ffb84d]"
-    // },
+    {
+      icon: MapPin,
+      title: "Phone",
+      value: "+91-9997912619",
+      bgColor: "bg-[#ffb84d]"
+    },
     {
       icon: MapPin,
       title: "Location",
-      value: "Bangalore, Karnataka, India",
+      value: "India - Gurgaon, Noida",
       bgColor: "bg-[#ff6b35]"
     }
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/bharathkumargr", label: "LinkedIn" },
-    { icon: Twitter, href: "https://x.com/Bharath44618051", label: "Twitter" },
-    { icon: Github, href: "https://github.com/GRB-Bharath", label: "GitHub" },
-    { icon: Mail, href: "mailto:bharathb451@gmail.com", label: "Email" }
+    { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-7b14a8154/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:prashikalalalwani@gmail.com", label: "Email" }
   ];
 
   return (
@@ -95,7 +93,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-semibold text-[#ff6b35] mb-6">Get in Touch</h3>
             <p className="text-gray-300 mb-8">
-              I'm always excited to collaborate on innovative eLearning projects. Whether you need instructional design, eLearning development, or UI/UX design services, let's discuss how we can bring your vision to life.
+              I'm always excited to collaborate on innovative learning solutions. Whether you need instructional design consulting, e-learning development, or L&D strategy services, let's discuss how we can drive impactful learning experiences together.
             </p>
             
             <div className="space-y-4 mb-8">

@@ -9,7 +9,7 @@ export function registerAdminRoutes(app: Express) {
       <!DOCTYPE html>
       <html>
       <head>
-        <title>Admin Login - Bharath Shetty Portfolio</title>
+        <title>Admin Login - Prashika Lalwani Portfolio</title>
         <style>
           body { 
             font-family: Arial, sans-serif; 
@@ -46,7 +46,7 @@ export function registerAdminRoutes(app: Express) {
             color: #ff6b35;
             font-weight: bold;
           }
-          input[type="email"], input[type="password"] { 
+          input[type="text"], input[type="email"], input[type="password"] { 
             width: 100%; 
             padding: 12px; 
             border: 1px solid #333; 
@@ -56,7 +56,7 @@ export function registerAdminRoutes(app: Express) {
             font-size: 16px;
             box-sizing: border-box;
           }
-          input[type="email"]:focus, input[type="password"]:focus { 
+          input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus { 
             outline: none; 
             border-color: #ff6b35; 
             box-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
@@ -98,15 +98,15 @@ export function registerAdminRoutes(app: Express) {
         <div class="login-container">
           <div class="brand">
             <h2 style="color: #ff6b35; margin: 0;">Portfolio Admin</h2>
-            <p style="margin: 5px 0 0 0;">Bharath Shetty</p>
+            <p style="margin: 5px 0 0 0;">Prashika Lalwani</p>
           </div>
           
           <h1>Admin Login</h1>
           
           <form method="POST" action="/admin/login">
             <div class="form-group">
-              <label for="username">Username (Email)</label>
-              <input type="email" id="username" name="username" autocomplete="email" required>
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username" autocomplete="username" required>
             </div>
             
             <div class="form-group">

@@ -59,3 +59,45 @@ export const FigmaIcon = ({ className = "", size = 24 }) => (
     className={`${className} object-contain`}
   />
 );
+
+export const Microsoft365Icon = ({ className = "", size = 24 }) => (
+  <svg 
+    viewBox="0 0 24 24"
+    width={size}
+    height={size}
+    className={`${className} object-contain`}
+    fill="currentColor"
+  >
+    <rect x="2" y="2" width="8" height="8" fill="#0078D4" />
+    <rect x="14" y="2" width="8" height="8" fill="#50E6FF" />
+    <rect x="2" y="14" width="8" height="8" fill="#FFB900" />
+    <rect x="14" y="14" width="8" height="8" fill="#107C10" />
+  </svg>
+);
+
+export const VyondIcon = ({ className = "", size = 24 }) => (
+  <svg
+    viewBox="0 0 24 24"
+    width={size}
+    height={size}
+    className={`${className} object-contain`}
+    fill="currentColor"
+  >
+    <circle cx="12" cy="12" r="10" fill="#FF6B35" />
+    <path d="M10 8l6 4-6 4V8z" fill="white" />
+  </svg>
+);
+
+export const PowerPointIcon = ({ className = "", size = 24 }) => (
+  <svg
+    viewBox="0 0 24 24"
+    width={size}
+    height={size}
+    className={`${className} object-contain`}
+    fill="currentColor"
+  >
+    <rect width="24" height="24" fill="#D83B01" />
+    <circle cx="12" cy="12" r="6" fill="white" />
+    <path d="M12 8v8M8 12h8" stroke="#D83B01" strokeWidth="1.5" strokeLinecap="round" />
+  </svg>
+);

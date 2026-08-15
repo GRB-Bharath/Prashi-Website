@@ -135,7 +135,7 @@ const Hero = () => {
         })}
       </div>
 
-      {/* Hi, I'm Bharath Shetty spacing left side */}
+      {/* Hi, I'm Prashika Lalwani spacing left side */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center min-h-[calc(100vh-6rem)]">
           <motion.div
@@ -151,7 +151,7 @@ const Hero = () => {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 mt-6 sm:mt-8 lg:mt-10 leading-tight whitespace-nowrap"
             >
               Hi, I'm <ReactTypingEffect
-                text={["Bharath Shetty"]} 
+                text={["Prashika Lalwani"]} 
                 speed={100}
                 eraseSpeed={100}
                 eraseDelay={3000}
@@ -169,7 +169,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
               className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-6 sm:mb-8 leading-relaxed"
             >
-              Senior Technical Instructional Designer II | eLearning Developer | Content Developer
+              Instructional Designer Consultant | L&D Specialist | Learning Experience Designer
             </motion.p>
             
             <motion.p
@@ -178,7 +178,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
               className="text-base sm:text-lg text-gray-400 mb-6 sm:mb-8 max-w-2xl leading-relaxed"
             >
-              Passionate about creating engaging eLearning solutions that transform complex concepts into interactive, memorable experiences using cutting-edge design and development tools.
+              Results-driven professional with 6+ years of expertise in designing engaging learning solutions that transform complex technical and corporate concepts into interactive, impactful experiences using ADDIE methodologies and cutting-edge tools.
             </motion.p>
             
             <motion.div
@@ -193,7 +193,7 @@ const Hero = () => {
                   // Always open in new tab for preview (both mobile and desktop)
                   // Add timestamp to prevent caching issues
                   const timestamp = new Date().getTime();
-                  const resumeUrl = `/documents/Bharath_Resume.pdf?v=${timestamp}`;
+                  const resumeUrl = `/documents/Prashika_Resume.pdf?v=${timestamp}`;
                   
                   // Create a link element for better control
                   const link = document.createElement('a');
@@ -233,10 +233,8 @@ const Hero = () => {
               className="flex justify-center sm:justify-start space-x-3 sm:space-x-4"
             >
               {[
-                { icon: Linkedin, href: "https://www.linkedin.com/in/bharathkumargr", label: "LinkedIn" },
-                { icon: Twitter, href: "https://x.com/Bharath44618051", label: "Twitter" },
-                { icon: Github, href: "https://github.com/GRB-Bharath", label: "GitHub" },
-                { icon: Mail, href: "mailto:bharathb451@gmail.com", label: "Email" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-7b14a8154/", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:prashikalalalwani@gmail.com", label: "Email" },
               ].map((social, index) => (
                 <motion.a
                   key={social.label}
@@ -377,8 +375,8 @@ const Hero = () => {
                     
                     {/* Profile image — preloaded & compressed, loads instantly */}
                     <img 
-                      src="/images/B.png"
-                      alt="Bharath Shetty - Senior Instructional Designer" 
+                      src="/images/main pic.jpeg"
+                      alt="Prashika Lalwani - Instructional Designer Consultant" 
                       className="w-full h-full object-cover object-center"
                       style={{ 
                         objectPosition: "center center",
@@ -387,7 +385,6 @@ const Hero = () => {
                       }}
                       loading="eager"
                       decoding="sync"
-                      fetchPriority="high"
                     />
                     
                     {/* Professional lighting effects */}

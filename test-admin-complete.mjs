@@ -9,8 +9,8 @@ const __dirname = dirname(__filename);
 
 // Test admin credentials
 const adminCredentials = {
-  username: 'bharathb451@gmail.com',
-  password: '7760344951@Grb'
+  username: 'Prashika',
+  password: 'Prashika@2025'
 };
 
 console.log('🔍 Testing Admin Login Configuration');
@@ -107,5 +107,5 @@ console.log('2. Set environment variables in Render dashboard');
 console.log('3. Test admin login at your deployed URL');
 console.log();
 console.log('🔗 Test URL: https://bharath-portfolio-7jem.onrender.com/admin');
-console.log('👤 Username: bharathb451@gmail.com');
-console.log('🔑 Password: 7760344951@Grb');
+console.log('👤 Username: Prashika');
+console.log('🔑 Password: Prashika@2025');

@@ -77,7 +77,7 @@ const Navigation = () => {
               className="text-xl font-bold text-gradient cursor-pointer"
               onClick={() => scrollToSection("home")}
             >
-              Bharath Shetty
+              Prashika Lalwani
             </h1>
           </motion.div>
 
