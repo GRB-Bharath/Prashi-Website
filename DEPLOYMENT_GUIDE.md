@@ -36,9 +36,11 @@ git push -u origin main
 
 ### 4. Set Environment Variables
 In the Render dashboard, go to Environment section and add:
+- `NODE_VERSION`: `20` (or `20.18.0` - Required for SQLite native binaries)
 - `NODE_ENV`: `production`
 - `PORT`: `10000` (Render will set this automatically)
-- `SESSION_SECRET`: `your-secure-random-string-here`
+- `SESSION_SECRET`: `bharath-portfolio-admin-secret-key-2024-secure`
+- `SQLITE_DB_PATH`: `/tmp`
 
 ### 5. Deploy
 1. Click "Create Web Service"
