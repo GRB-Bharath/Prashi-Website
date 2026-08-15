@@ -22,7 +22,7 @@ const Experience = () => {
       period: "Aug 2023 - Mar 2024",
       title: "Instructional Designer",
       company: "PeopleStrong Pvt. Ltd.",
-      location: "Gurgaon • Remote",
+      location: "Gurgaon • Onsite",
       type: "Full-time",
       skills: ["ADDIE", "Storyboarding", "Articulate Rise", "LMS", "Adult Learning"],
       achievements: [
@@ -36,7 +36,7 @@ const Experience = () => {
       period: "Feb 2023 - Jul 2023",
       title: "Instructional Designer",
       company: "Prospecta Software",
-      location: "Noida • Remote",
+      location: "Noida • Onsite",
       type: "Full-time",
       skills: ["SAM Model", "Storyboarding", "Design Documents", "ILT", "Assessments"],
       achievements: [
@@ -50,7 +50,7 @@ const Experience = () => {
       period: "Mar 2022 - Jul 2022",
       title: "Sr. Instructional Designer",
       company: "Asian Academy of Film & Television",
-      location: "Noida • Remote",
+      location: "Noida • Onsite",
       type: "Full-time",
       skills: ["ADDIE", "Bloom's Taxonomy", "Team Leadership", "LMS Platforms"],
       achievements: [
@@ -64,7 +64,7 @@ const Experience = () => {
       period: "Jan 2020 - Mar 2020",
       title: "Sr. Instructional Designer/Curriculum Designer",
       company: "LIDO Learning",
-      location: "Mumbai • Remote",
+      location: "Mumbai • Onsite",
       type: "Full-time",
       skills: ["Curriculum Design", "ILT", "VILT", "LMS Management", "Content Governance"],
       achievements: [
@@ -78,7 +78,7 @@ const Experience = () => {
       period: "Jul 2019 - Nov 2019",
       title: "Content Developer",
       company: "Doubtnut",
-      location: "Gurgaon • Remote",
+      location: "Gurgaon • Onsite",
       type: "Full-time",
       skills: ["Content Development", "Quality Assurance", "Higher Learning", "Digital Assets"],
       achievements: [
@@ -103,10 +103,10 @@ const Experience = () => {
           <h2 className="text-4xl font-bold text-gradient mb-4">My Experience</h2>
           <p className="text-xl text-gray-400">Professional journey and key achievements</p>
         </motion.div>
-        
+
         <div className="relative">
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-[#ff6b35] to-[#ff8f50] z-0"></div>
-          
+
           <div className="relative z-20 space-y-12">
             {experiences.map((exp, index) => (
               <div key={index} className={`flex flex-col lg:flex-row items-center ${index % 2 === 0 ? '' : 'lg:flex-row-reverse'}`}>
@@ -139,7 +139,7 @@ const Experience = () => {
                     </ul>
                   </div>
                 </motion.div>
-                
+
                 <motion.div
                   initial={{ opacity: 0, y: index % 2 === 0 ? 50 : -50 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -148,14 +148,14 @@ const Experience = () => {
                   className={`flex-1 ${index % 2 === 0 ? 'lg:pl-8' : 'lg:pr-8'} relative z-30`}
                 >
                   <div className="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto p-3 shadow-lg">
-                    <img 
+                    <img
                       src={
                         index === 0 ? "/images/NIIT.png" :
-                        index === 1 ? "/images/peoplestrong.jpg" :
-                        index === 2 ? "/images/prospecta_software_logo.jpg" :
-                        index === 3 ? "/images/Asian Academy of Film & Television.jpg" :
-                        index === 4 ? "/images/LIDO Learning.png" :
-                        "/images/Doubtnut.jpg"
+                          index === 1 ? "/images/peoplestrong.jpg" :
+                            index === 2 ? "/images/prospecta_software_logo.jpg" :
+                              index === 3 ? "/images/Asian Academy of Film & Television.jpg" :
+                                index === 4 ? "/images/LIDO Learning.png" :
+                                  "/images/Doubtnut.jpg"
                       }
                       alt={`${exp.company} Logo`}
                       className="w-full h-full object-contain"
