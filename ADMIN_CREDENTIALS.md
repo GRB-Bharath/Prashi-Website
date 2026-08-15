@@ -43,7 +43,7 @@ Instructional Designer Consultant | L&D Specialist | Learning Experience Designe
 - Same orange theme (#ff6b35) and dark background
 - All animations and effects preserved
 - Responsive design maintained
-- Profile image: /images/main pic.jpeg
+- Profile image: /images/main image.jpeg
 
 ✅ **Backend:**
 - Completely untouched (no code changes)

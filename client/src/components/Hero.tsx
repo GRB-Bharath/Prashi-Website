@@ -375,7 +375,7 @@ const Hero = () => {
                     
                     {/* Profile image — preloaded & compressed, loads instantly */}
                     <img 
-                      src="/images/main pic.jpeg"
+                      src="/images/main image.jpeg"
                       alt="Prashika Lalwani - Instructional Designer Consultant" 
                       className="w-full h-full object-cover object-center"
                       style={{ 
