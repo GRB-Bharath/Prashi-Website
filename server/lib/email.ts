@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export async function sendEmailNotification(contact: Contact): Promise<void> {
   const mailOptions = {
     from: process.env.SMTP_USER || 'your-email@gmail.com',
-    to: 'bharathb451@gmail.com',
+    to: process.env.ADMIN_EMAIL || 'prashikalalalwani@gmail.com',
     subject: `New Contact Form Submission: ${contact.subject}`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

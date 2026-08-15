@@ -20,6 +20,6 @@ export const requireAuth = (req: AuthRequest, res: Response, next: NextFunction)
 };
 
 export const adminCredentials = {
-  username: 'bharathb451@gmail.com',
-  password: '7760344951@Grb'
+  username: 'prashikalalalwani@gmail.com',
+  password: 'Prashika@2025'
 };

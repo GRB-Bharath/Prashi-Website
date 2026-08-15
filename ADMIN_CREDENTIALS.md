@@ -3,7 +3,7 @@
 ## Admin Portal Access
 
 ### Default Credentials:
-- **Username:** `Prashika`
+- **Username / Email:** `prashikalalalwani@gmail.com` (or `Prashika`)
 - **Password:** `Prashika@2025`
 
 ### Backend Access:

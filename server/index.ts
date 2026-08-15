@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Ensure session database directory exists
-const sessionDbPath = process.env.SQLITE_DB_PATH || '/tmp';
+const sessionDbPath = process.env.SQLITE_DB_PATH || process.cwd();
 if (process.env.NODE_ENV === 'production') {
   try {
     if (!fs.existsSync(sessionDbPath)) {
@@ -42,7 +42,7 @@ app.use(session({
   store: process.env.NODE_ENV === 'production'
     ? new SQLiteStore({ 
         db: 'sessions.db', 
-        dir: process.env.SQLITE_DB_PATH || '/tmp',
+        dir: sessionDbPath,
         concurrentDB: true 
       })
     : undefined,

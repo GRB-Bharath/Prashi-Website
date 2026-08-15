@@ -135,7 +135,12 @@ export function registerAdminRoutes(app: Express) {
       passwordLength: adminCredentials.password.length 
     });
     
-    if (username === adminCredentials.username && password === adminCredentials.password) {
+    const inputUsername = (username || '').trim().toLowerCase();
+    const targetUsername = adminCredentials.username.toLowerCase();
+    const isUsernameMatch = inputUsername === targetUsername || inputUsername === 'prashika';
+    const isPasswordMatch = password === adminCredentials.password;
+    
+    if (isUsernameMatch && isPasswordMatch) {
       console.log('Login successful, setting session');
       req.session.isAdmin = true;
       
