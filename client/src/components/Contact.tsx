@@ -48,7 +48,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "lalwanirashika@gmail.com",
+      value: "lalwaniprashika@gmail.com",
       bgColor: "bg-[#ff6b35]"
     },
     {
@@ -66,7 +66,7 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Mail, href: "mailto:lalwanirashika@gmail.com", label: "Email" },
+    { icon: Mail, href: "mailto:lalwaniprashika@gmail.com", label: "Email" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-448a37172", label: "LinkedIn" }
   ];
 

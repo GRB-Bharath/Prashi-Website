@@ -234,7 +234,7 @@ const Hero = () => {
             >
               {[
                 { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-7b14a8154/", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:lalwanirashika@gmail.com", label: "Email" },
+                { icon: Mail, href: "mailto:lalwaniprashika@gmail.com", label: "Email" },
               ].map((social, index) => (
                 <motion.a
                   key={social.label}
