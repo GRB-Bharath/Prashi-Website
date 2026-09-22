@@ -22,7 +22,7 @@ const Experience = () => {
       period: "Aug 2023 - Mar 2024",
       title: "Instructional Designer",
       company: "PeopleStrong Pvt. Ltd.",
-      location: "Gurgaon • Onsite",
+      location: "Gurgaon • Remote",
       type: "Full-time",
       skills: ["ADDIE", "Storyboarding", "Articulate Rise", "LMS", "Adult Learning"],
       achievements: [

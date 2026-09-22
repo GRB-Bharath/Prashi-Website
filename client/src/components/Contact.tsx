@@ -48,13 +48,13 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "prashikalalalwani@gmail.com",
+      value: "lalwanirashika@gmail.com",
       bgColor: "bg-[#ff6b35]"
     },
     {
       icon: MapPin,
       title: "Phone",
-      value: "+91-9997912619",
+      value: "+91- 8171993829",
       bgColor: "bg-[#ffb84d]"
     },
     {
@@ -66,8 +66,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-7b14a8154/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:prashikalalalwani@gmail.com", label: "Email" }
+    { icon: Mail, href: "mailto:lalwanirashika@gmail.com", label: "Email" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/prashika-lalwani-448a37172", label: "LinkedIn" }
   ];
 
   return (
@@ -83,7 +83,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold text-gradient mb-4">Let's Work Together</h2>
           <p className="text-xl text-gray-400">Ready to create amazing eLearning experiences?</p>
         </motion.div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -95,7 +95,7 @@ const Contact = () => {
             <p className="text-gray-300 mb-8">
               I'm always excited to collaborate on innovative learning solutions. Whether you need instructional design consulting, e-learning development, or L&D strategy services, let's discuss how we can drive impactful learning experiences together.
             </p>
-            
+
             <div className="space-y-4 mb-8">
               {contactInfo.map((info, index) => (
                 <motion.div
@@ -116,7 +116,7 @@ const Contact = () => {
                 </motion.div>
               ))}
             </div>
-            
+
             <div>
               <h4 className="text-lg font-semibold text-[#ffb84d] mb-4">Follow Me</h4>
               <div className="flex space-x-4">
@@ -141,7 +141,7 @@ const Contact = () => {
               </div>
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}

@@ -3,21 +3,21 @@
 ## Admin Portal Access
 
 ### Default Credentials:
-- **Username / Email:** `prashikalalalwani@gmail.com` (or `Prashika`)
+- **Username / Email:** `lalwanirashika@gmail.com` (or `Prashika`)
 - **Password:** `Prashika@2025`
 
 ### Backend Access:
 - URL: Available when backend admin portal is configured
 - Database: SQLite (portfolio.db)
-- Email for notifications: `prashikalalalwani@gmail.com`
+- Email for notifications: `lalwanirashika@gmail.com`
 
 ---
 
 ## Client Information
 
 **Name:** Prashika Lalwani  
-**Email:** prashikalalalwani@gmail.com  
-**Phone:** +91-9997912619  
+**Email:** lalwanirashika@gmail.com  
+**Phone:** +91- 8171993829  
 **LinkedIn:** linkedin.com/in/prashika-lalwani-7b14a8154/  
 **Location:** India (Remote)  
 
@@ -76,7 +76,7 @@ Instructional Designer Consultant | L&D Specialist | Learning Experience Designe
 
 ## Contact Information for Updates
 
-All contact requests will be sent to: **prashikalalalwani@gmail.com**
+All contact requests will be sent to: **lalwanirashika@gmail.com**
 
 ---
 
