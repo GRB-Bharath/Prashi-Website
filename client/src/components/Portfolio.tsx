@@ -73,6 +73,48 @@ const Portfolio = () => {
       year: "2022",
       tools: ["ADDIE Model", "Moodle LMS", "Instructional Design"],
       isClickable: true
+    },
+    {
+      title: "Manager Conversation Storyboard",
+      description: "A comprehensive instructional storyboard designed for manager training and productive conversations. Focuses on leadership development and communication strategies.",
+      image: "/images/thumb_storyboard.jpg",
+      tags: ["Storyboarding", "Leadership Training", "Instructional Design"],
+      hoverClass: "hover:primary-glow",
+      projectUrl: "#",
+      githubUrl: "#",
+      fileUrl: "/documents/Manager Conversation Storyboard 1-1.pptx",
+      category: "Storyboarding",
+      year: "2024",
+      tools: ["PowerPoint", "Storyboarding", "Leadership"],
+      isClickable: true
+    },
+    {
+      title: "U.S. Data Center Infrastructure",
+      description: "An advanced presentation detailing modern technologies and management in U.S. Data Center Infrastructure. High-level technical overview for engineering audiences.",
+      image: "/images/thumb_datacenter.jpg",
+      tags: ["Technical Writing", "Infrastructure", "Presentation Design"],
+      hoverClass: "hover:orange-glow",
+      projectUrl: "#",
+      githubUrl: "#",
+      fileUrl: "/documents/Welcome to U.S. Data Center Infrastructure.pptx",
+      category: "Technical Presentation",
+      year: "2024",
+      tools: ["PowerPoint", "Technical Writing", "Infrastructure"],
+      isClickable: true
+    },
+    {
+      title: "Why Ethical AI Matters",
+      description: "A thought-provoking presentation on the importance of Ethical AI in today's world. Explores the balance between technological advancement and ethical responsibility.",
+      image: "/images/thumb_ethical_ai.jpg",
+      tags: ["AI Ethics", "Technology", "Presentation Design"],
+      hoverClass: "hover:primary-glow",
+      projectUrl: "#",
+      githubUrl: "#",
+      fileUrl: "/documents/Why Ethical AI Matters in Today's World.pptx.pptx",
+      category: "Ethics & Technology",
+      year: "2024",
+      tools: ["PowerPoint", "AI Ethics", "Research"],
+      isClickable: true
     }
   ];
 
