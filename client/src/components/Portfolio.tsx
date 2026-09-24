@@ -33,34 +33,6 @@ const Portfolio = () => {
       isClickable: true
     },
     {
-      title: "Blended Learning Programs Development",
-      description: "Developed comprehensive blended learning programs combining e-learning modules, Instructor-Led Training (ILT), Virtual Instructor-Led Training (vILT), simulations, and video-based training. Collaborated with SMEs and stakeholders to support digital learning transformation initiatives.",
-      image: "/images/Aicerts.png",
-      tags: ["Blended Learning", "VILT", "Video Production"],
-      hoverClass: "hover:orange-glow",
-      projectUrl: "#",
-      githubUrl: "#",
-      fileUrl: "",
-      category: "Training Programs",
-      year: "2023-2024",
-      tools: ["Camtasia", "Synthesia", "Canva", "Adobe Captivate"],
-      isClickable: true
-    },
-    {
-      title: "Custom Storyboards & Design Documents - Prospecta Software",
-      description: "Created 50+ custom storyboards, assessments, and demo outlines for business process learning. Authored 100+ comprehensive design documents and learning aids to support software users and improve learner self-sufficiency across diverse user groups.",
-      image: "/images/time.png",
-      tags: ["Storyboarding", "Design Documents", "Business Training"],
-      hoverClass: "hover:primary-glow",
-      projectUrl: "#",
-      githubUrl: "#",
-      fileUrl: "",
-      category: "Instructional Design",
-      year: "2023",
-      tools: ["Storyboarding", "Design Documentation", "Learning Aids"],
-      isClickable: true
-    },
-    {
       title: "Storyboard Sample - Zomato",
       description: "Authored an interactive delivery partner onboarding and mobile literacy storyboard for Zomato. Covers smartphone fundamentals, GPS navigation, order workflows, and real-time app operations for field readiness.",
       image: "/images/zomato-cover.png",
