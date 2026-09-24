@@ -11,7 +11,7 @@ const Portfolio = () => {
     
     if (project.fileUrl && project.fileUrl !== "") {
       // Open PDFs inline in a new tab so they preview in the browser
-      window.open(project.fileUrl, '_blank', 'noopener,noreferrer');
+      window.open(encodeURI(project.fileUrl), '_blank', 'noopener,noreferrer');
     } else {
       alert(`🎯 Project: ${project.title}\n\n📅 Year: ${project.year}\n🏷️ Category: ${project.category}\n\n✅ Click functionality is working!\n💡 Add your file links to the fileUrl field to open actual project files.`);
     }
@@ -19,17 +19,17 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "Enterprise Learning Solutions - SaaS Platforms",
-      description: "Designed and developed scalable enterprise learning solutions for SaaS and EdTech clients using Articulate Storyline 360 and Articulate Rise. Enhanced learner proficiency through engaging, interactive modules aligned with business learning objectives.",
-      image: "https://elearningimages.adobe.com/files/2023/07/Discover-all-new-Adobe-Captivate-Allen.jpg",
-      tags: ["Articulate Storyline 360", "E-Learning", "Enterprise"],
+      title: "JPMorgan Chase - Phishing & Cyber Defense",
+      description: "Designed an interactive enterprise cybersecurity awareness module focused on identifying sophisticated credential harvesting, out-of-band verification, and defending personal and account information against phishing attacks.",
+      image: "/images/thumb_jpmc.jpg",
+      tags: ["Cybersecurity", "E-Learning", "JPMorgan Chase", "Phishing Defense"],
       hoverClass: "hover:primary-glow",
       projectUrl: "#",
       githubUrl: "#",
-      fileUrl: "",
-      category: "E-Learning",
-      year: "2023-2024",
-      tools: ["Articulate Storyline", "Articulate Rise", "ADDIE Model"],
+      fileUrl: "/documents/Sample work JPMC- personal and phishing attacks.pdf",
+      category: "Enterprise Security",
+      year: "2024",
+      tools: ["Instructional Design", "Articulate Storyline", "Cyber Defense"],
       isClickable: true
     },
     {
@@ -61,17 +61,17 @@ const Portfolio = () => {
       isClickable: true
     },
     {
-      title: "Curriculum Design & LMS Implementation",
-      description: "Led ADDIE-based curriculum development for Asian Academy of Film & Television covering creative and technical subjects. Authored 40+ design documents, storyboards, and assessments aligned with Bloom's Taxonomy. Coordinated with SMEs to validate content accuracy and maintained course materials on LMS platforms.",
+      title: "Storyboard Sample - Zomato",
+      description: "Authored an interactive delivery partner onboarding and mobile literacy storyboard for Zomato. Covers smartphone fundamentals, GPS navigation, order workflows, and real-time app operations for field readiness.",
       image: "/images/zomato-cover.png",
-      tags: ["Curriculum Design", "ADDIE", "LMS", "Bloom's Taxonomy"],
+      tags: ["Storyboarding", "Zomato", "Instructional Design", "Mobile Literacy"],
       hoverClass: "hover:orange-glow",
       projectUrl: "#",
       githubUrl: "#",
-      fileUrl: "",
-      category: "Curriculum Development",
-      year: "2022",
-      tools: ["ADDIE Model", "Moodle LMS", "Instructional Design"],
+      fileUrl: "/documents/Storyboard Sample- Zomato.pdf",
+      category: "Instructional Storyboard",
+      year: "2023",
+      tools: ["Storyboarding", "ADDIE Model", "Instructional Design"],
       isClickable: true
     },
     {
